@@ -1,0 +1,21 @@
+div.tong{
+	width: 900px;
+	height: 1000px;
+	border: 1px solid black;
+	margin: auto;
+}
+.top{
+	width: 900px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: red;
+}
+.tong .left{
+	width: 150px;
+	height: 799px;
+	border: 1px solid black;
+	background-color: green;
+}
+.tong .bottom{
+	
+}

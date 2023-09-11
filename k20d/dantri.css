@@ -1,0 +1,30 @@
+* {  box-sizing: border-box;}
+.container::after 
+{  
+	content: "";  
+	clear: both;  
+	display: table;
+}
+.trai{
+	width: 20%;
+}
+.giua{
+	width: 50%;
+}
+.phai{
+	width: 30%;
+}
+.tong{
+	float: left;
+	padding: 15px;
+}
+.phai .nd{
+	width: 200px;
+	height: 150px;
+
+}
+.phai .nd .td{
+	width: 60px;
+	height: 150px;
+	float: left;
+}

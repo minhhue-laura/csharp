@@ -1,0 +1,29 @@
+h1{
+	color: #00aaff52;
+	background-color: red;
+	font-family: tahoma;
+	font-size: 27px;
+	font-weight: bold;
+}
+p{
+	background: green;
+	border: 2px solid; black;
+	padding: 50px;
+	margin-bottom: 100px;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+
+}
+body{
+/*	background-image: url(images/a1.webp);*/
+}
+a{
+	text-decoration: none;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #414141;
+	color: white;
+}

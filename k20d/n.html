@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		* {  box-sizing: border-box;}
+		.box {  float: left;  width: 33.33%;padding: 50px;}
+		.clearfix::after {  content: "";  clear: both;  display: table;}
+	</style>
+</head>
+<body>
+	<h2>Bố cục dạng lưới hộp</h2>
+	<p>Float để các box cạnh nhau:</p>
+	<div class="clearfix">  
+		<div class="box" style="background-color:#bbb"> 
+			<p>Website Quản trị mạng</p>  
+		</div>  
+		<div class="box" style="background-color:#ccc">  
+			<p>Website Quản trị mạng</p>  
+		</div>  
+		<div class="box" style="background-color:#ddd">  
+			<p>Website Quản trị mạng</p>  
+		</div>
+	</div>
+	<p>Sử dụng clearfix để xử lý layout flow và add thêm thuộc tính box-sizing để kích thước box không thay đổi nếu có bổ sung thêm padding và border. Bạn có thể thử bỏ thuộc tính này để xem rõ hiệu quả.
+	</p>
+</body>
+</html>
